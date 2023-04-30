@@ -29,7 +29,6 @@ public class EmployeeController {
 	// get all employees
 	@GetMapping("/employees")
 	public List<Employee> getAllEmployees() {
-		
 		return employeeRepository.findAll();
 	}
 
